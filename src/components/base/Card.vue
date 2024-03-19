@@ -18,7 +18,7 @@
 <script setup lang="ts">
 
   defineOptions({
-    inheritAttrs: false
+    inheritAttrs: false,
   })
 
   interface Props {
@@ -26,6 +26,6 @@
   }
 
   withDefaults(defineProps<Props>(), {
-    title: ''
+    title: '',
   })
 </script>

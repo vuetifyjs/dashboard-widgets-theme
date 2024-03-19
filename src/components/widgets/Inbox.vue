@@ -7,8 +7,8 @@
       <v-list-item
         v-for="({ name, text }, i) in emails"
         :key="i"
-        :title="name"
         :subtitle="text"
+        :title="name"
         class="py-4"
       >
         <template #prepend>

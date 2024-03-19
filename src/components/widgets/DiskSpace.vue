@@ -14,5 +14,5 @@
 </template>
 
 <script setup lang="ts">
-  const value = ref("50")
+  const value = ref('50')
 </script>

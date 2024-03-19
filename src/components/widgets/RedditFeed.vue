@@ -6,10 +6,11 @@
       three-line
     >
       <template v-for="n in 3" :key="n">
-        <v-list-item class="py-2"
-          title="Poster"
-          subtitle="Lots of text that will need to be truncatedLots of text that will need to be truncatedLots of text that will need to be truncated"
+        <v-list-item
+          class="py-2"
           lines="two"
+          subtitle="Lots of text that will need to be truncatedLots of text that will need to be truncatedLots of text that will need to be truncated"
+          title="Poster"
         >
           <template #prepend>
             <v-avatar color="red" theme="dark">

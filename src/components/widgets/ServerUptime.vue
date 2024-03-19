@@ -5,9 +5,9 @@
       lines="two"
     >
       <v-list-item
-        title="up"
-        subtitle="2d 3h 45m"
         prepend-icon="mdi-server"
+        subtitle="2d 3h 45m"
+        title="up"
       />
     </v-list>
 

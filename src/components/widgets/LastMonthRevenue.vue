@@ -7,8 +7,8 @@
       <v-list-item
         v-for="({ icon, value, text }, i) in fields"
         :key="i"
-        :title="value"
         :subtitle="text"
+        :title="value"
         class="py-2"
       >
         <template #prepend>

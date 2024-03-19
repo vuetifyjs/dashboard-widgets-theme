@@ -29,15 +29,15 @@ export default createVuetify({
           primary: '#33404D',
           secondary: '#FEA21E',
           accent: '#39C2B2',
-        }
+        },
       },
       dark: {
         colors: {
           primary: '#FFFFFF',
           secondary: '#FEA21E',
           accent: '#39C2B2',
-        }
-      }
-    }
+        },
+      },
+    },
   },
 })

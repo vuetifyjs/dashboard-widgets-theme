@@ -10,8 +10,8 @@
       >
         <v-row
           align="center"
-          justify="center"
           class="flex-column py-3"
+          justify="center"
         >
           <slot />
         </v-row>
@@ -37,11 +37,11 @@
   const slots = defineSlots<any>()
 
   const styles = computed(() => {
-    return { 
-      height: `calc(100% - ${props.title? '37px': ''})`
+    return {
+      height: `calc(100% - ${props.title ? '37px' : ''})`,
     }
   })
 
-  const hasActionsSlot = computed(() => !!slots.actions);
+  const hasActionsSlot = computed(() => !!slots.actions)
 
 </script>

@@ -1,22 +1,22 @@
 <template>
   <Widget title="Fast Contact">
-    <v-card-text 
+    <v-card-text
       class="text-center"
       style="width: 100%;"
     >
       <v-text-field
-        filled
         label="Name"
+        filled
       />
 
       <v-text-field
-        filled
         label="Email"
+        filled
       />
 
       <v-textarea
-        filled
         label="Message"
+        filled
       />
 
       <v-btn
