@@ -5,7 +5,7 @@
       tag="v-layout"
       three-line
     >
-      <template v-for="n in 3" :key="n">
+      <template v-for="_n in 3" :key="n">
         <v-list-item
           class="py-2"
           lines="two"
