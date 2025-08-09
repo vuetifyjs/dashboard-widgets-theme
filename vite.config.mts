@@ -56,8 +56,8 @@ export default defineConfig({
   define: { 'process.env': {} },
   resolve: {
     alias: {
-      '@': fileURLToPath(new URL('./src', import.meta.url)),
-      '@widgets': fileURLToPath(new URL('./src/components/widgets', import.meta.url)),
+      '@': fileURLToPath(new URL('src', import.meta.url)),
+      '@widgets': fileURLToPath(new URL('src/components/widgets', import.meta.url)),
     },
     extensions: [
       '.js',

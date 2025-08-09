@@ -1,9 +1,9 @@
 <template>
   <Widget title="Last 30 Days Stats">
     <VSparkline
-      :model-value="values"
       class="px-3 mt-4"
       color="secondary"
+      :model-value="values"
     />
     <template #actions>
       StatCounter Information

@@ -5,18 +5,18 @@
       style="width: 100%;"
     >
       <v-text-field
-        label="Name"
         filled
+        label="Name"
       />
 
       <v-text-field
-        label="Email"
         filled
+        label="Email"
       />
 
       <v-textarea
-        label="Message"
         filled
+        label="Message"
       />
 
       <v-btn

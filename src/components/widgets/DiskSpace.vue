@@ -1,8 +1,8 @@
 <template>
   <Widget title="Disk Space">
     <v-progress-circular
-      :model-value="value"
       color="#39C2B2"
+      :model-value="value"
       size="128"
       width="24"
     />

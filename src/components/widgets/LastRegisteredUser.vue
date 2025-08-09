@@ -6,7 +6,7 @@
       size="88"
       tile
     >
-      <v-img src="https://randomuser.me/api/portraits/women/83.jpg" cover />
+      <v-img cover src="https://randomuser.me/api/portraits/women/83.jpg" />
     </v-avatar>
 
     <h3 class="text-h5 mb-1">

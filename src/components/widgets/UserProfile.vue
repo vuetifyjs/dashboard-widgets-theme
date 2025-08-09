@@ -6,7 +6,7 @@
         color="grey"
         size="88"
       >
-        <v-img src="https://randomuser.me/api/portraits/men/86.jpg" cover />
+        <v-img cover src="https://randomuser.me/api/portraits/men/86.jpg" />
       </v-avatar>
 
       <h2 class="headline mb-2">
