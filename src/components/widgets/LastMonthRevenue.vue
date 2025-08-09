@@ -7,9 +7,9 @@
       <v-list-item
         v-for="({ icon, value, text }, i) in fields"
         :key="i"
+        class="py-2"
         :subtitle="text"
         :title="value"
-        class="py-2"
       >
         <template #prepend>
           <v-icon size="x-large">

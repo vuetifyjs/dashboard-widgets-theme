@@ -5,9 +5,9 @@
     </h2>
 
     <VSparkline
-      :model-value="value"
       class="px-3 mt-4"
       color="rgba(255, 255, 255, .2)"
+      :model-value="value"
     />
 
     <template #actions>

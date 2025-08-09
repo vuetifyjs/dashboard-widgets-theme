@@ -18,25 +18,25 @@ import Inbox from '@widgets/Inbox.vue'
 import FastContact from '@widgets/FastContact.vue'
 import Modal from '@widgets/Modal.vue'
 
-export const useAppStore = defineStore('app', () =>{
+export const useAppStore = defineStore('app', () => {
   const widgets = shallowRef([
-      UserProfile,
-      TwitterFeed,
-      RedditFeed,
-      LatestNews,
-      SiteBandwidth,
-      DiskSpace,
-      LastMonthRevenue,
-      TotalSubscribers,
-      Accordion,
-      LastRegisteredUser,
-      ServerUptime,
-      LastDaysStats,
-      GaugeChart,
-      BlockDashboard,
-      Inbox,
-      FastContact,
-      Modal,
+    UserProfile,
+    TwitterFeed,
+    RedditFeed,
+    LatestNews,
+    SiteBandwidth,
+    DiskSpace,
+    LastMonthRevenue,
+    TotalSubscribers,
+    Accordion,
+    LastRegisteredUser,
+    ServerUptime,
+    LastDaysStats,
+    GaugeChart,
+    BlockDashboard,
+    Inbox,
+    FastContact,
+    Modal,
   ])
 
   return { widgets }

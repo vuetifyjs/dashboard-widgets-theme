@@ -1,8 +1,8 @@
 <template>
   <Card :title="title">
     <v-row
-      :style="styles"
       class="ma-0 flex-column"
+      :style="styles"
     >
       <v-col
         align-self="center"

@@ -1,8 +1,8 @@
 <template>
   <Widget title="Site Bandwidth">
     <v-progress-circular
-      :model-value="value"
       color="#D35253"
+      :model-value="value"
       size="128"
       width="24"
     />

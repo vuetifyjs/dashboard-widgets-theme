@@ -7,9 +7,9 @@
       <v-list-item
         v-for="({ name, text }, i) in emails"
         :key="i"
+        class="py-4"
         :subtitle="text"
         :title="name"
-        class="py-4"
       >
         <template #prepend>
           <v-avatar color="grey" tile />
@@ -52,7 +52,5 @@
   const title = computed(() => {
     return `Inbox (${emails.value.length})`
   })
-  const reply = () => {
-
-  }
+  const reply = () => {}
 </script>
