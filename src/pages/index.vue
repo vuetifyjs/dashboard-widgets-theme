@@ -3,7 +3,7 @@
     <v-container fluid>
       <v-row justify="center">
         <v-col
-          v-for="(widget, i) in widgets"
+          v-for="(widget, i) in app.widgets"
           :key="i"
           class="d-flex child-flex"
           cols="12"
@@ -21,8 +21,7 @@
 <script setup lang="ts">
   import { useAppStore } from '@/stores/app'
 
-  const { widgets } = useAppStore()
-
+  const app = useAppStore()
 </script>
 
 <style>

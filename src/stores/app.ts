@@ -18,9 +18,8 @@ import Inbox from '@widgets/Inbox.vue'
 import FastContact from '@widgets/FastContact.vue'
 import Modal from '@widgets/Modal.vue'
 
-export const useAppStore = defineStore('app', {
-  state: () => shallowRef({
-    widgets: [
+export const useAppStore = defineStore('app', () =>{
+  const widgets = shallowRef([
       UserProfile,
       TwitterFeed,
       RedditFeed,
@@ -38,6 +37,7 @@ export const useAppStore = defineStore('app', {
       Inbox,
       FastContact,
       Modal,
-    ],
-  }),
+  ])
+
+  return { widgets }
 })

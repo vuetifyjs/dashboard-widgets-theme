@@ -19,7 +19,7 @@
             <v-row
               class="ma-0 pa-2"
             >
-              <v-icon @click="reply(i)">
+              <v-icon @click="reply">
                 mdi-reply
               </v-icon>
             </v-row>

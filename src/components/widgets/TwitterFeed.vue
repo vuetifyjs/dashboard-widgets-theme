@@ -5,8 +5,8 @@
       tag="v-layout"
       three-line
     >
-      <template v-for="n in 3" :key="n">
         <v-list-item
+          v-for="n in 3" :key="n"
           class="py-2"
           lines="two"
           subtitle="Lots of text that will need to be truncatedLots of text that will need to be truncatedLots of text that will need to be truncated"
@@ -20,7 +20,6 @@
             </v-avatar>
           </template>
         </v-list-item>
-      </template>
     </v-list>
   </Widget>
 </template>
